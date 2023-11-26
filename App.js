@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from "react-native";
 import IntroScreen from "./Screens/IntroScreen";
 import SignupScreen from "./Screens/SignupScreen";
 import LoginScreen from "./Screens/LoginScreen";
+import HomeScreen from "./Screens/HomeScreen";
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <IntroScreen />
       <SignupScreen />
       <LoginScreen />
+      <HomeScreen />
     </View>
   );
 }
