@@ -9,9 +9,9 @@ export default function App() {
   return (
     <View>
       <IntroScreen />
-      <SignupScreen />
-      <LoginScreen />
-      <HomeScreen />
+      {/* <SignupScreen /> */}
+      {/* <LoginScreen /> */}
+      {/* <HomeScreen /> */}
     </View>
   );
 }
@@ -20,7 +20,5 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#000",
-    alignItems: "center",
-    justifyContent: "center",
   },
 });
