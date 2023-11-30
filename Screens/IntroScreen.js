@@ -3,7 +3,7 @@ import React from "react";
 
 const IntroScreen = () => {
   return (
-    <View style={{ backgroundColor: "black" }}>
+    <View>
       <Text>IntroScreen</Text>
     </View>
   );
