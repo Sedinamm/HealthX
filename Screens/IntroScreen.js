@@ -19,11 +19,14 @@ const IntroScreen = () => {
       </View>
 
       {/* Description */}
-      <View>
-        <Text style={{ color: "white" }}>
-          Hello World This is a Description
+      <View style={styles.descriptionText}>
+        <Text style={{ color: "white", fontSize: 40, fontWeight: "bold" }}>
+          Fitness can{"\n"}be so{" "}
+          <Text style={{ color: "gold", fontStyle: "italic" }}>easy</Text>
         </Text>
       </View>
+
+      {/* Button */}
     </View>
   );
 };
@@ -40,5 +43,8 @@ const styles = StyleSheet.create({
     width: 500,
     right: 50,
     top: 50,
+  },
+  descriptionText: {
+    paddingLeft: 25,
   },
 });
