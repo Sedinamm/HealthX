@@ -20,9 +20,8 @@ const IntroScreen = () => {
 
       {/* Description */}
       <View style={styles.descriptionText}>
-        <Text style={{ color: "white", fontSize: 40, fontWeight: "bold" }}>
-          Fitness can{"\n"}be so{" "}
-          <Text style={{ color: "gold", fontStyle: "italic" }}>easy</Text>
+        <Text style={styles.text}>
+          Fitness can{"\n"}be so <Text style={styles.editedText}>easy</Text>
         </Text>
       </View>
 
@@ -38,13 +37,25 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#000",
   },
+  // Image
   introImage1: {
     height: 450,
     width: 500,
     right: 50,
     top: 50,
   },
+
+  // Text Description
   descriptionText: {
     paddingLeft: 25,
+  },
+  text: {
+    color: "white",
+    fontSize: 40,
+    fontWeight: "bold",
+  },
+  editedText: {
+    color: "gold",
+    fontStyle: "italic",
   },
 });
