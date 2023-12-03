@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View, Image, TouchableOpacity } from "react-native";
 import React from "react";
-import Video from "react-native-video";
+import video from "react-native-video";
 
 const IntroScreen = () => {
   return (
