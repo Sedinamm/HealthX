@@ -8,7 +8,7 @@ import {
 } from "react-native";
 import React from "react";
 
-const IntroScreen = () => {
+const IntroScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <View style={{ alignItems: "center" }}>
@@ -28,7 +28,12 @@ const IntroScreen = () => {
       {/* Button */}
       <View style={styles.buttonView}>
         <Text style={styles.buttonText}>Get Started</Text>
-        <TouchableOpacity style={styles.button}></TouchableOpacity>
+        <TouchableOpacity
+          onPress={() => {
+            navigation.navigate("LoginScreen");
+          }}
+          style={styles.button}
+        ></TouchableOpacity>
       </View>
     </View>
   );
