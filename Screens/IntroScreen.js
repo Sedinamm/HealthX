@@ -26,6 +26,10 @@ const IntroScreen = () => {
       </View>
 
       {/* Button */}
+      <View style={styles.buttonView}>
+        <Text style={styles.buttonText}>Get Started</Text>
+        <TouchableOpacity style={styles.button}></TouchableOpacity>
+      </View>
     </View>
   );
 };
@@ -57,5 +61,34 @@ const styles = StyleSheet.create({
   editedText: {
     color: "gold",
     fontStyle: "italic",
+  },
+
+  // Button
+  buttonView: {
+    height: "11%",
+    width: "80%",
+    backgroundColor: "#232227",
+    alignSelf: "center",
+    borderRadius: 50,
+    marginTop: 40,
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    // padding: 30,
+    paddingRight: 10,
+    paddingLeft: 50,
+  },
+
+  buttonText: {
+    color: "#ffffff",
+    marginRight: 10,
+    fontSize: 17,
+    fontWeight: "700",
+  },
+  button: {
+    height: 60,
+    width: 90,
+    backgroundColor: "black",
+    borderRadius: 40,
   },
 });
