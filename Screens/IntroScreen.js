@@ -30,7 +30,7 @@ const IntroScreen = ({ navigation }) => {
         <Text style={styles.buttonText}>Get Started</Text>
         <TouchableOpacity
           onPress={() => {
-            navigation.navigate("LoginScreen");
+            navigation.navigate("Question1");
           }}
           style={styles.button}
         ></TouchableOpacity>
