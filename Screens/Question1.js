@@ -5,13 +5,13 @@ const Question1 = () => {
   return (
     <View style={styles.container}>
       <View style={{ flex: 6 }}>
-        <Image style={styles.image} source={require("../Images/mw.jpg")} />
+        <Image style={styles.image} source={require("../Images/mf.jpg")} />
       </View>
       <View
         style={{
           flex: 3.5,
           width: "100%",
-          backgroundColor: "red",
+          backgroundColor: "#000",
           borderTopRightRadius: 40,
           borderTopLeftRadius: 40,
         }}
@@ -31,7 +31,7 @@ const Question1 = () => {
           style={{
             textAlign: "center",
             fontWeight: "700",
-            color: "white",
+            color: "grey",
             marginTop: 8,
           }}
         >
@@ -61,14 +61,23 @@ const Question1 = () => {
                 style={{ width: "100%", height: "100%" }}
                 source={require("../Images/male.png")}
               />
-              <Text style={{ color: "white", textAlign: "center" }}>Man</Text>
+              <Text
+                style={{
+                  color: "white",
+                  textAlign: "center",
+                  fontSize: 16,
+                  fontWeight: "700",
+                }}
+              >
+                Man
+              </Text>
             </View>
           </TouchableOpacity>
           {/* Female */}
           <TouchableOpacity>
             <View
               style={{
-                backgroundColor: "#232227",
+                backgroundColor: "#000",
                 height: 140,
                 width: 110,
                 borderRadius: 20,
@@ -79,7 +88,16 @@ const Question1 = () => {
                 style={{ width: "100%", height: "100%" }}
                 source={require("../Images/female.png")}
               />
-              <Text style={{ color: "white", textAlign: "center" }}>Woman</Text>
+              <Text
+                style={{
+                  color: "white",
+                  textAlign: "center",
+                  fontSize: 16,
+                  fontWeight: "700",
+                }}
+              >
+                Woman
+              </Text>
             </View>
           </TouchableOpacity>
 
@@ -87,7 +105,7 @@ const Question1 = () => {
           <TouchableOpacity>
             <View
               style={{
-                backgroundColor: "#232227",
+                backgroundColor: "#000",
                 height: 140,
                 width: 110,
                 borderRadius: 20,
@@ -97,7 +115,16 @@ const Question1 = () => {
                 style={{ width: "100%", height: "100%" }}
                 source={require("../Images/other.png")}
               />
-              <Text style={{ color: "white", textAlign: "center" }}>Other</Text>
+              <Text
+                style={{
+                  color: "white",
+                  textAlign: "center",
+                  fontSize: 16,
+                  fontWeight: "700",
+                }}
+              >
+                Other
+              </Text>
             </View>
           </TouchableOpacity>
         </View>
