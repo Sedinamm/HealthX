@@ -54,13 +54,14 @@ const Question1 = () => {
                 width: 110,
                 borderRadius: 20,
                 marginRight: 10,
+                // marginBottom: -30,
               }}
             >
               <Image
-                style={{ width: "130%", height: "120%" }}
+                style={{ width: "100%", height: "100%" }}
                 source={require("../Images/male.png")}
               />
-              <Text style={{ color: "white" }}>Male</Text>
+              <Text style={{ color: "white", textAlign: "center" }}>Man</Text>
             </View>
           </TouchableOpacity>
           {/* Female */}
@@ -73,8 +74,15 @@ const Question1 = () => {
                 borderRadius: 20,
                 marginRight: 10,
               }}
-            ></View>
+            >
+              <Image
+                style={{ width: "100%", height: "100%" }}
+                source={require("../Images/female.png")}
+              />
+              <Text style={{ color: "white", textAlign: "center" }}>Woman</Text>
+            </View>
           </TouchableOpacity>
+
           {/* Others */}
           <TouchableOpacity>
             <View
@@ -84,10 +92,18 @@ const Question1 = () => {
                 width: 110,
                 borderRadius: 20,
               }}
-            ></View>
+            >
+              <Image
+                style={{ width: "100%", height: "100%" }}
+                source={require("../Images/other.png")}
+              />
+              <Text style={{ color: "white", textAlign: "center" }}>Other</Text>
+            </View>
           </TouchableOpacity>
         </View>
       </View>
+
+      {/* Footer */}
       <View style={{ flex: 0.5, backgroundColor: "black" }}>
         <Text
           style={{
