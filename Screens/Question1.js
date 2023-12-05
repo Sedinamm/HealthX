@@ -1,5 +1,6 @@
 import { StyleSheet, Text, View, Image, TouchableOpacity } from "react-native";
 import React from "react";
+import { BlurView } from "@react-native-community/blur";
 
 const Question1 = () => {
   return (
