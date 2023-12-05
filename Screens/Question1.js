@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View, Image, TouchableOpacity } from "react-native";
 import React from "react";
-import { BlurView } from "@react-native-community/blur";
+// import { BlurView } from "@react-native-community/blur";
 
 const Question1 = () => {
   return (
@@ -12,10 +12,13 @@ const Question1 = () => {
         style={{
           flex: 3.5,
           width: "100%",
-          backgroundColor: "#000",
+          backgroundColor: "brown",
           borderTopRightRadius: 40,
           borderTopLeftRadius: 40,
         }}
+        // blurType="dark"
+        // blurAmount={10}
+        // reducedTransparencyFallbackColor="white"
       >
         <Text
           style={{
