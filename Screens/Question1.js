@@ -12,7 +12,7 @@ const Question1 = () => {
         style={{
           flex: 3.5,
           width: "100%",
-          backgroundColor: "brown",
+          backgroundColor: "purple",
           borderTopRightRadius: 40,
           borderTopLeftRadius: 40,
         }}
