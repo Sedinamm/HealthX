@@ -24,7 +24,7 @@ const Question1 = () => {
           style={{
             textAlign: "center",
             marginTop: 15,
-            fontSize: 22,
+            fontSize: 21,
             fontWeight: "bold",
             color: "white",
           }}
