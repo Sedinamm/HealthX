@@ -34,7 +34,7 @@ const Question1 = () => {
                 style={styles.image2}
                 source={require("../Images/female.png")}
               />
-              <Text style={styles.btnText2}>Woman</Text>
+              <Text style={styles.btnText}>Woman</Text>
             </View>
           </TouchableOpacity>
 
@@ -45,7 +45,7 @@ const Question1 = () => {
                 style={styles.image3}
                 source={require("../Images/other.png")}
               />
-              <Text style={styles.btnText3}>Other</Text>
+              <Text style={styles.btnText}>Other</Text>
             </View>
           </TouchableOpacity>
         </View>
@@ -66,12 +66,19 @@ const styles = StyleSheet.create({
     flex: 10,
     backgroundColor: "#000",
   },
-  container2: {
+  _container2: {
     flex: 3.5,
     width: "100%",
-    backgroundColor: "purple",
+    backgroundColor: "#232227",
     borderTopRightRadius: 40,
     borderTopLeftRadius: 40,
+    opacity: 0.7, // adjust
+  },
+  get container2() {
+    return this._container2;
+  },
+  set container2(value) {
+    this._container2 = value;
   },
   image: {
     width: "100%",
@@ -109,13 +116,14 @@ const styles = StyleSheet.create({
   image1: {
     width: "100%",
     height: "100%",
+    bottom: "10%",
   },
   btnText: {
     color: "white",
     textAlign: "center",
     fontSize: 16,
     fontWeight: "700",
-    top: 100,
+    top: 90,
     position: "absolute",
     left: 0,
     right: 0,
@@ -131,16 +139,7 @@ const styles = StyleSheet.create({
   image2: {
     width: "100%",
     height: "100%",
-  },
-  btnText2: {
-    color: "white",
-    textAlign: "center",
-    fontSize: 16,
-    fontWeight: "700",
-    position: "absolute",
-    top: 100,
-    left: 0,
-    right: 0,
+    bottom: "10%",
   },
   othersView: {
     backgroundColor: "#000",
@@ -152,6 +151,7 @@ const styles = StyleSheet.create({
   image3: {
     width: "100%",
     height: "100%",
+    bottom: "15%",
   },
   btnText3: {
     color: "white",
@@ -159,7 +159,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: "700",
     position: "absolute",
-    top: 100,
+    top: 90,
     left: 0,
     right: 0,
   },
