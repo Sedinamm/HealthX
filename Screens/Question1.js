@@ -70,6 +70,7 @@ const styles = StyleSheet.create({
     flex: 3.5,
     width: "100%",
     backgroundColor: "#232227",
+    // backgroundColor: "rgba(0, 0, 255, 0.5)",
     borderTopRightRadius: 40,
     borderTopLeftRadius: 40,
     opacity: 0.7, // adjust
