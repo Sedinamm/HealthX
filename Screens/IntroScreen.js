@@ -44,7 +44,7 @@ export default IntroScreen;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#000",
+    backgroundColor: "#232227",
     display: "flex",
     justifyContent: "center",
     // alignItems: "center",
@@ -65,6 +65,8 @@ const styles = StyleSheet.create({
     color: "white",
     fontSize: 40,
     fontWeight: "bold",
+    left: "6%",
+    bottom: "15%",
   },
   editedText: {
     color: "gold",
@@ -75,7 +77,7 @@ const styles = StyleSheet.create({
   buttonView: {
     height: "11%",
     width: "80%",
-    backgroundColor: "#232227",
+    backgroundColor: "#000",
     alignSelf: "center",
     borderRadius: 50,
     marginTop: 40,
@@ -96,7 +98,7 @@ const styles = StyleSheet.create({
   button: {
     height: 60,
     width: 90,
-    backgroundColor: "black",
+    backgroundColor: "#232227",
     borderRadius: 40,
   },
 });
