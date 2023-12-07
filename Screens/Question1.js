@@ -49,8 +49,8 @@ const Question1 = () => {
             alignSelf: "center",
           }}
         >
+          {/* Male */}
           <TouchableOpacity>
-            {/* Male */}
             <View
               style={{
                 backgroundColor: "#000",
@@ -59,6 +59,7 @@ const Question1 = () => {
                 borderRadius: 20,
                 marginRight: 10,
                 // marginBottom: -30,
+                position: "relative",
               }}
             >
               <Image
@@ -71,6 +72,11 @@ const Question1 = () => {
                   textAlign: "center",
                   fontSize: 16,
                   fontWeight: "700",
+                  // bottom: 40,
+                  top: 100,
+                  position: "absolute",
+                  left: 0,
+                  right: 0,
                 }}
               >
                 Man
@@ -86,6 +92,7 @@ const Question1 = () => {
                 width: 110,
                 borderRadius: 20,
                 marginRight: 10,
+                position: "relative",
               }}
             >
               <Image
@@ -98,6 +105,10 @@ const Question1 = () => {
                   textAlign: "center",
                   fontSize: 16,
                   fontWeight: "700",
+                  // position: "absolute",
+                  // top: 100,
+                  // left: 0,
+                  // right: 0,
                 }}
               >
                 Woman
@@ -113,6 +124,7 @@ const Question1 = () => {
                 height: 140,
                 width: 110,
                 borderRadius: 20,
+                position: "relative",
               }}
             >
               <Image
@@ -125,6 +137,10 @@ const Question1 = () => {
                   textAlign: "center",
                   fontSize: 16,
                   fontWeight: "700",
+                  // position: "absolute",
+                  // top: 100,
+                  // left: 0,
+                  // right: 0,
                 }}
               >
                 Other
