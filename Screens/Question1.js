@@ -2,7 +2,7 @@ import { StyleSheet, Text, View, Image, TouchableOpacity } from "react-native";
 import React from "react";
 // import { BlurView } from "@react-native-community/blur";
 
-const Question1 = () => {
+const Question1 = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <View style={{ flex: 6 }}>
@@ -18,7 +18,11 @@ const Question1 = () => {
         <Text style={styles.text2}>Let's get to know each other a little</Text>
         <View style={styles.buttonView}>
           {/* Male */}
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => {
+              navigation.navigate("Question2");
+            }}
+          >
             <View style={styles.maleBtnView}>
               <Image
                 style={styles.image1}
@@ -28,7 +32,11 @@ const Question1 = () => {
             </View>
           </TouchableOpacity>
           {/* Female */}
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => {
+              navigation.navigate("Question2");
+            }}
+          >
             <View style={styles.femaleBtnView}>
               <Image
                 style={styles.image2}
@@ -39,7 +47,11 @@ const Question1 = () => {
           </TouchableOpacity>
 
           {/* Others */}
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => {
+              navigation.navigate("Question2");
+            }}
+          >
             <View style={styles.othersView}>
               <Image
                 style={styles.image3}
