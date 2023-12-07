@@ -45,13 +45,16 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#000",
+    display: "flex",
+    justifyContent: "center",
+    // alignItems: "center",
+    height: "100vh",
   },
   // Image
   introImage1: {
-    height: 450,
-    width: 500,
-    right: 50,
-    top: 50,
+    height: 430,
+    width: 430,
+    right: "12%",
   },
 
   // Text Description
