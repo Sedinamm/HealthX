@@ -5,6 +5,7 @@ import SignupScreen from "./Screens/SignupScreen";
 import LoginScreen from "./Screens/LoginScreen";
 import HomeScreen from "./Screens/HomeScreen";
 import Question1 from "./Screens/Question1";
+import Question2 from "./Screens/Question2";
 
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
@@ -19,6 +20,7 @@ export default function App() {
         <Stack.Screen name="LoginScreen" component={LoginScreen} />
         <Stack.Screen name="HomeScreen" component={HomeScreen} />
         <Stack.Screen name="Question1" component={Question1} />
+        <Stack.Screen name="Question2" component={Question2} />
       </Stack.Navigator>
     </NavigationContainer>
   );
