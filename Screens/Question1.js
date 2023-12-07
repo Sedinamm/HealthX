@@ -72,7 +72,6 @@ const Question1 = () => {
                   textAlign: "center",
                   fontSize: 16,
                   fontWeight: "700",
-                  // bottom: 40,
                   top: 100,
                   position: "absolute",
                   left: 0,
@@ -105,10 +104,10 @@ const Question1 = () => {
                   textAlign: "center",
                   fontSize: 16,
                   fontWeight: "700",
-                  // position: "absolute",
-                  // top: 100,
-                  // left: 0,
-                  // right: 0,
+                  position: "absolute",
+                  top: 100,
+                  left: 0,
+                  right: 0,
                 }}
               >
                 Woman
