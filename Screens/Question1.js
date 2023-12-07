@@ -136,10 +136,10 @@ const Question1 = () => {
                   textAlign: "center",
                   fontSize: 16,
                   fontWeight: "700",
-                  // position: "absolute",
-                  // top: 100,
-                  // left: 0,
-                  // right: 0,
+                  position: "absolute",
+                  top: 100,
+                  left: 0,
+                  right: 0,
                 }}
               >
                 Other
