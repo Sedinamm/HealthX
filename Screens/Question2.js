@@ -1,12 +1,22 @@
-import { StyleSheet, Text, View, SafeAreaView } from "react-native";
+import {
+  StyleSheet,
+  Text,
+  View,
+  SafeAreaView,
+  TouchableOpacity,
+} from "react-native";
 import React from "react";
 import { Ionicons } from "@expo/vector-icons";
 
 const Question2 = () => {
   return (
     <SafeAreaView style={styles.container}>
+      {/* Back button and Number count */}
       <View>
-        <Text style={{ color: "white" }}>Hello world</Text>
+        {/* back button */}
+        <View></View>
+        {/* Number count */}
+        <View></View>
       </View>
     </SafeAreaView>
   );
