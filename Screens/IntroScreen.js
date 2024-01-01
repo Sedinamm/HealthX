@@ -35,12 +35,33 @@ const IntroScreen = ({ navigation }) => {
           }}
           style={styles.button}
         >
-          {/* <Ionicons
-            name=""
-            size={30}
-            color="white"
-            style={styles.heartIcon}
-          /> */}
+          <View
+            style={{
+              flexDirection: "row",
+              marginTop: 15,
+              alignContent: "center",
+              justifyContent: "center",
+            }}
+          >
+            <Ionicons
+              name="chevron-forward-outline"
+              size={23}
+              color="grey"
+              style={styles.forwardIcon1}
+            />
+            <Ionicons
+              name="chevron-forward-outline"
+              size={23}
+              color="white"
+              style={styles.forwardIcon2}
+            />
+            <Ionicons
+              name="chevron-forward-outline"
+              size={23}
+              color="white"
+              style={styles.forwardIcon3}
+            />
+          </View>
         </TouchableOpacity>
       </View>
     </View>
@@ -109,4 +130,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#232227",
     borderRadius: 40,
   },
+  forwardIcon1: {},
+  forwardIcon2: {},
+  forwardIcon3: {},
 });
