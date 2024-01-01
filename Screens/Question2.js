@@ -1,8 +1,6 @@
 import { StyleSheet, Text, View, SafeAreaView } from "react-native";
 import React from "react";
-// import { Entypo } from "@expo/vector-icons";
-// import { MaterialCommunityIcons } from "@expo/vector-icons";
-// import { Ionicons } from "@expo/vector-icons";
+import { Ionicons } from "@expo/vector-icons";
 
 const Question2 = () => {
   return (
