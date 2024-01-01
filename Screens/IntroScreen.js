@@ -49,12 +49,7 @@ const IntroScreen = ({ navigation }) => {
               color="grey"
               style={styles.forwardIcon1}
             />
-            <Ionicons
-              name="chevron-forward-outline"
-              size={23}
-              color="white"
-              style={styles.forwardIcon2}
-            />
+            <Ionicons name="chevron-forward-outline" size={23} color="white" />
             <Ionicons
               name="chevron-forward-outline"
               size={23}
@@ -130,7 +125,6 @@ const styles = StyleSheet.create({
     backgroundColor: "#232227",
     borderRadius: 40,
   },
-  forwardIcon1: {},
-  forwardIcon2: {},
-  forwardIcon3: {},
+  forwardIcon1: { left: 6 },
+  forwardIcon3: { right: 6 },
 });
