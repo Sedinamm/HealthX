@@ -7,6 +7,7 @@ import {
   SafeAreaView,
 } from "react-native";
 import React from "react";
+import { Ionicons } from "@expo/vector-icons";
 
 const IntroScreen = ({ navigation }) => {
   return (
@@ -33,7 +34,14 @@ const IntroScreen = ({ navigation }) => {
             navigation.navigate("Question1");
           }}
           style={styles.button}
-        ></TouchableOpacity>
+        >
+          {/* <Ionicons
+            name=""
+            size={30}
+            color="white"
+            style={styles.heartIcon}
+          /> */}
+        </TouchableOpacity>
       </View>
     </View>
   );

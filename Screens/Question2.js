@@ -1,11 +1,16 @@
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, SafeAreaView } from "react-native";
 import React from "react";
+// import { Entypo } from "@expo/vector-icons";
+// import { MaterialCommunityIcons } from "@expo/vector-icons";
+// import { Ionicons } from "@expo/vector-icons";
 
 const Question2 = () => {
   return (
-    <View style={styles.container}>
-      <View></View>
-    </View>
+    <SafeAreaView style={styles.container}>
+      <View>
+        <Text style={{ color: "white" }}>Hello world</Text>
+      </View>
+    </SafeAreaView>
   );
 };
 
