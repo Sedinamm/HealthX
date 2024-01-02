@@ -4,6 +4,7 @@ import {
   View,
   SafeAreaView,
   TouchableOpacity,
+  Image,
 } from "react-native";
 import React from "react";
 import { Ionicons } from "@expo/vector-icons";
@@ -72,6 +73,26 @@ const Question2 = () => {
         >
           What do you seek {"\n"}to achieve?
         </Text>
+      </View>
+
+      {/* Buttons */}
+      <View style={{ marginTop: 30 }}>
+        {/* Question 1 */}
+        <TouchableOpacity
+          style={{
+            height: 120,
+            width: 330,
+            borderRadius: 20,
+            backgroundColor: "yellow",
+            alignSelf: "center",
+            justifyContent: "space-between",
+            flexDirection: "row",
+          }}
+        >
+          <Text style={{ color: "black" }}>hello</Text>
+          <Text style={{ color: "black" }}>hello</Text>
+          <Text style={{ color: "black" }}>hello</Text>
+        </TouchableOpacity>
       </View>
     </SafeAreaView>
   );
