@@ -9,7 +9,7 @@ import {
 import React from "react";
 import { Ionicons } from "@expo/vector-icons";
 
-const Question2 = () => {
+const Question2 = ({ navigation }) => {
   return (
     <SafeAreaView style={styles.container}>
       <View
@@ -23,6 +23,9 @@ const Question2 = () => {
       >
         {/* back button */}
         <TouchableOpacity
+          onPress={() => {
+            navigation.navigate("Question1");
+          }}
           style={{
             height: 50,
             width: 50,
