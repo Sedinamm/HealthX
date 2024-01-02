@@ -83,13 +83,23 @@ const Question2 = () => {
             height: 120,
             width: 330,
             borderRadius: 20,
-            backgroundColor: "yellow",
+            // backgroundColor: "#28b4c6",
+            backgroundColor: "rgb(108, 227, 225)",
             alignSelf: "center",
             justifyContent: "space-between",
             flexDirection: "row",
           }}
         >
-          <Text style={{ color: "black" }}>hello</Text>
+          <View
+            style={{
+              height: 90,
+              width: 90,
+              backgroundColor: "white",
+              borderRadius: 20,
+              alignSelf: "center",
+              marginLeft: 10,
+            }}
+          ></View>
           <Text style={{ color: "black" }}>hello</Text>
           <Text style={{ color: "black" }}>hello</Text>
         </TouchableOpacity>
