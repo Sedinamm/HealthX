@@ -167,7 +167,7 @@ const Question2 = ({ navigation }) => {
                 alignSelf: "center",
                 top: 8,
               }}
-              source={require("../Images/muscle.png")}
+              source={require("../Images/fat.png")}
             />
           </View>
           {/* Text */}
@@ -224,7 +224,7 @@ const Question2 = ({ navigation }) => {
                 alignSelf: "center",
                 top: 8,
               }}
-              source={require("../Images/muscle.png")}
+              source={require("../Images/food.png")}
             />
           </View>
           {/* Text */}
