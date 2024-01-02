@@ -60,9 +60,17 @@ const Question2 = () => {
       </View>
 
       {/* Question */}
-      <View>
-        <Text style={{ color: "white" }}>
-          What do you seek {"\n"} to achieve
+      <View style={{ marginTop: 30 }}>
+        <Text
+          style={{
+            color: "white",
+            textAlign: "center",
+            justifyContent: "center",
+            fontSize: 30,
+            fontWeight: "bold",
+          }}
+        >
+          What do you seek {"\n"}to achieve?
         </Text>
       </View>
     </SafeAreaView>
