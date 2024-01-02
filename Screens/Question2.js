@@ -58,8 +58,13 @@ const Question2 = () => {
           </Text>
         </View>
       </View>
+
       {/* Question */}
-      <View></View>
+      <View>
+        <Text style={{ color: "white" }}>
+          What do you seek {"\n"} to achieve
+        </Text>
+      </View>
     </SafeAreaView>
   );
 };
