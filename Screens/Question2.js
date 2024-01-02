@@ -75,9 +75,8 @@ const Question2 = () => {
         </Text>
       </View>
 
-      {/* Buttons */}
+      {/* Buttons 1 */}
       <View style={{ marginTop: 30 }}>
-        {/* Question 1 */}
         <TouchableOpacity
           style={{
             height: 120,
@@ -99,9 +98,151 @@ const Question2 = () => {
               alignSelf: "center",
               marginLeft: 10,
             }}
-          ></View>
-          <Text style={{ color: "black" }}>hello</Text>
-          <Text style={{ color: "black" }}>hello</Text>
+          >
+            {/* Image */}
+            <Image
+              style={{
+                height: 70,
+                width: 70,
+                alignSelf: "center",
+                top: 8,
+              }}
+              source={require("../Images/muscle.png")}
+            />
+          </View>
+          {/* Text */}
+          <Text
+            style={{
+              color: "black",
+              alignSelf: "center",
+              fontSize: 16,
+              fontWeight: "bold",
+              marginRight: 55,
+            }}
+          >
+            Gain Muscles
+          </Text>
+          {/* Icon */}
+          <Ionicons
+            name="arrow-forward-outline"
+            color="white"
+            size={32}
+            style={styles.arrow}
+          />
+        </TouchableOpacity>
+      </View>
+
+      {/* Button 2 */}
+      <View style={{ marginTop: 15 }}>
+        <TouchableOpacity
+          style={{
+            height: 120,
+            width: 330,
+            borderRadius: 20,
+            // backgroundColor: "#28b4c6",
+            backgroundColor: "#232227",
+            alignSelf: "center",
+            justifyContent: "space-between",
+            flexDirection: "row",
+          }}
+        >
+          <View
+            style={{
+              height: 90,
+              width: 90,
+              backgroundColor: "white",
+              borderRadius: 20,
+              alignSelf: "center",
+              marginLeft: 10,
+            }}
+          >
+            {/* Image */}
+            <Image
+              style={{
+                height: 70,
+                width: 70,
+                alignSelf: "center",
+                top: 8,
+              }}
+              source={require("../Images/muscle.png")}
+            />
+          </View>
+          {/* Text */}
+          <Text
+            style={{
+              color: "white",
+              alignSelf: "center",
+              fontSize: 16,
+              fontWeight: "bold",
+              marginRight: 55,
+            }}
+          >
+            Loose Weight
+          </Text>
+          {/* Icon */}
+          <Ionicons
+            name="arrow-forward-outline"
+            color="white"
+            size={32}
+            style={styles.arrow}
+          />
+        </TouchableOpacity>
+      </View>
+
+      {/* Button 3 */}
+      <View style={{ marginTop: 15 }}>
+        <TouchableOpacity
+          style={{
+            height: 120,
+            width: 330,
+            borderRadius: 20,
+            // backgroundColor: "#28b4c6",
+            backgroundColor: "#232227",
+            alignSelf: "center",
+            justifyContent: "space-between",
+            flexDirection: "row",
+          }}
+        >
+          <View
+            style={{
+              height: 90,
+              width: 90,
+              backgroundColor: "white",
+              borderRadius: 20,
+              alignSelf: "center",
+              marginLeft: 10,
+            }}
+          >
+            {/* Image */}
+            <Image
+              style={{
+                height: 70,
+                width: 70,
+                alignSelf: "center",
+                top: 8,
+              }}
+              source={require("../Images/muscle.png")}
+            />
+          </View>
+          {/* Text */}
+          <Text
+            style={{
+              color: "white",
+              alignSelf: "center",
+              fontSize: 16,
+              fontWeight: "bold",
+              marginRight: 55,
+            }}
+          >
+            Stick to a Diet
+          </Text>
+          {/* Icon */}
+          <Ionicons
+            name="arrow-forward-outline"
+            color="white"
+            size={32}
+            style={styles.arrow}
+          />
         </TouchableOpacity>
       </View>
     </SafeAreaView>
@@ -118,5 +259,9 @@ const styles = StyleSheet.create({
   backBtn: {
     alignSelf: "center",
     marginTop: 5,
+  },
+  arrow: {
+    alignSelf: "center",
+    right: 15,
   },
 });
